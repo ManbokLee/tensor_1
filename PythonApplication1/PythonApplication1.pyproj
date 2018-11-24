@@ -22,6 +22,33 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="cro_bs\bs_bugs.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cro_bs\bs_syntax.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cro_bs\bs_txt.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="calc\calc.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="calc\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cro_selemium\google.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cro_selemium\naver_movie.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="grade\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="grade\student.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="person\main.py">
       <SubType>Code</SubType>
     </Compile>
@@ -53,6 +80,12 @@
     <Compile Include="tf_basic\tf_multi.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="tkinter\label.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tkinter\main.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ui\main.py">
       <SubType>Code</SubType>
     </Compile>
@@ -64,7 +97,11 @@
     <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda37-64" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="NewFolder1\" />
+    <Folder Include="calc\" />
+    <Folder Include="grade\" />
+    <Folder Include="cro_bs\" />
+    <Folder Include="cro_selemium\" />
+    <Folder Include="tkinter\" />
     <Folder Include="ui\" />
     <Folder Include="person\" />
     <Folder Include="py_oop\" />
