@@ -37,6 +37,9 @@
     <Compile Include="calc\main.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="cro_selemium\auto_login.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="cro_selemium\google.py">
       <SubType>Code</SubType>
     </Compile>
@@ -47,6 +50,51 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="grade\student.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="k_mean\k_mean01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="linear_regression\basic.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="linear_regression\linear02.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="linear_regression\linear03.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="linear_regression\linear04.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="linear_regression\linear05.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="linear_regression\linear06.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="linear_regression\linear07.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="linear_regression\plot01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="linear_regression\tensorboard01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="numpy\matplot.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="numpy\matplot2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="numpy\matplot3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="numpy\numpy_.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pandas\pandas1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="person\main.py">
@@ -77,7 +125,34 @@
     <Compile Include="py_oop\py_static.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="sqlite\sqlite01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_basic\tf_constant.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="tf_basic\tf_multi.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_basic\tf_op.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_basic\tf_op2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_basic\tf_placeholder.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_basic\tf_Variable.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_board\tboard02.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_board\tboard03.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_board\tboard1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="tkinter\label.py">
@@ -101,6 +176,12 @@
     <Folder Include="grade\" />
     <Folder Include="cro_bs\" />
     <Folder Include="cro_selemium\" />
+    <Folder Include="linear_regression\" />
+    <Folder Include="k_mean\" />
+    <Folder Include="sqlite\" />
+    <Folder Include="pandas\" />
+    <Folder Include="numpy\" />
+    <Folder Include="tf_board\" />
     <Folder Include="tkinter\" />
     <Folder Include="ui\" />
     <Folder Include="person\" />
