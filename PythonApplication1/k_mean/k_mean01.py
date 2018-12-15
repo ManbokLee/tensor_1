@@ -54,7 +54,7 @@ plt.show()
 """
 
 
-vectors = tf.constant(vectors_set) # 모든 데이터를 텐서로 옮긴다
+vectors = tf.constant(vectors_set) # 모든 데이터를 텐서로 옮긴다 -> vectors 변수에 테서-상수 로 선언
 k = 4 # 입력데이터에서 무작위로 K개의 데이터를 선택함. 여기서는 4개
 centroids = tf.Variable(tf.slice(tf.random_shuffle(vectors), [0,0], [k, -1]))
 # K개의 데이터 포인터는 2D 텐서로 저장됨
